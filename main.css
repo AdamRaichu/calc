@@ -1,3 +1,14 @@
+:root {
+    --b1-bg: darkblue;
+    --b1-txt: white;
+    --b2-bg: white;
+    --b2-txt: black;
+    --b3-bg: lightgrey;
+    --b3-txt: black;
+    --b-d-bg: transparent;
+    --b-d-txt: transparent;
+}
+
 body {
     background-color: #1f2227;
 }
@@ -24,6 +35,11 @@ canvas {
     border-radius: 5px;
     margin-top: 10px;
     height: 450px;
+}
+
+#calculator #buttons button {
+    font-weight: bold;
+    border: none;
 }
 
 #functions {
