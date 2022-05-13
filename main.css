@@ -34,3 +34,10 @@ canvas {
     top: 5px;
     left: 5px;
 }
+
+#functions .f input[type=color] {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: #30353d;
+}
