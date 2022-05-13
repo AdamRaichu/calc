@@ -8,3 +8,9 @@ canvas {
     background-color: white;
     border: 1px solid black;
 }
+
+#calculator {
+    b1order-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+}
