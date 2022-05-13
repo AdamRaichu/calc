@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Metadata -->
-        <title>Calculator Simulator</title>
-        <meta name="description" content="Try a graphing calculator!">
-		<meta name="keywords" content="Calculator, Math, Function, Y=">
-		<meta name="author" content="AdamRaichu">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Styles -->
-        <link rel="stylesheet" href="main.css">
-        <!-- Scripts -->
-        <script src="graph.js"></script>
-    </head>
-    <body>
-        <div id="main">
-            <div id="calculator">
-                <canvas id="myCanvas" width="400" height="200"></canvas>
-                <div id="buttons">
-                    
+
+<head>
+    <!-- Metadata -->
+    <title>Calculator Simulator</title>
+    <meta name="description" content="Try a graphing calculator!">
+    <meta name="keywords" content="Calculator, Math, Function, Y=">
+    <meta name="author" content="AdamRaichu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Scripts -->
+    <script src="graph.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div id="calculator">
+            <canvas id="myCanvas" width="400" height="200"></canvas>
+            <div id="buttons">
+                <div class="top-row">
+                    <button class="b3" data-f2="stat plot">y=</button>
+                    <button class="b3" data-f2="tblset">window</button>
+                    <button class="b3" data-f2="format">zoom</button>
+                    <button class="b3" data-f2="calc">trace</button>
+                    <button class="b3" data-f2="table">graph</button>
                 </div>
             </div>
         </div>
-        <div id="functions">
-            <div class="f"><input type="color" value="#ff0000"><span>Y= <span contenteditable="true"></span></span></div>
+    </div>
+    <div id="functions">
+        <div class="f"><input type="color" value="#ff0000"><span>Y= <span contenteditable="true"></span></span>
         </div>
-        <script src="onload.js"></script>
-    </body>
+    </div>
+    <script src="onload.js"></script>
+</body>
+
 </html>

@@ -10,6 +10,10 @@
     --b3-txt: black;
     --b-d-bg: transparent;
     --b-d-txt: transparent;
+    --b-2nd-bg: deepskyblue;
+    --b-2nd-txt: white;
+    --b-alpha-bg: lawngreen;
+    --b-alpha-txt: white;
 }
 
 body {
@@ -65,4 +69,38 @@ canvas {
 #functions .f span[contenteditable=true] {
     display: inline-block;
     width: 75%;
+}
+
+#buttons .top-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#buttons .top-row button {
+    border-radius: 10px;
+}
+
+button.b1 {
+    background-color: var(--b1-bg, darkblue);
+    color: var(--b1-txt, white);
+}
+
+button.b2 {
+    background-color: var(--b2-bg, white);
+    color: var(--b2-txt, black);
+}
+
+button.b3 {
+    background-color: var(--b3-bg, lightgrey);
+    color: var(--b3-txt, black);
+}
+
+button#2nd {
+    background-color: var(--b-2nd-bg, deepskyblue);
+    color: var(--b-2nd-txt, white);
+}
+
+button#alpha {
+    background-color: var(--b-alpha-bg, lawngreen);
+    color: var(--b-alpha-txt, white);
 }
