@@ -42,3 +42,8 @@ canvas {
     border: none;
     background-color: #30353d;
 }
+
+#functions .f span[contenteditable=true] {
+    display: inline-block;
+    width: 75%;
+}
