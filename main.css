@@ -1,4 +1,7 @@
 :root {
+    --calc-bg: blue;
+    --calc-border: black;
+    --canvas-bg: white;
     --b1-bg: darkblue;
     --b1-txt: white;
     --b2-bg: white;
@@ -19,19 +22,19 @@ body {
 }
 
 canvas {
-    background-color: white;
+    background-color: var(--canvas-bg, white);
     border: 1px solid black;
     border-radius: 5px;
 }
 
 #calculator {
     border-radius: 25px;
-    background-color: black;
+    background-color: var(--calc-border);
     padding: 20px;
 }
 
 #calculator #buttons {
-    background-color: blue;
+    background-color: var(--calc-bg);
     border-radius: 5px;
     margin-top: 10px;
     height: 450px;
