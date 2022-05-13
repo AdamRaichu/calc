@@ -144,3 +144,9 @@ Graph.prototype.transformContext = function () {
 
     context.scale(this.scaleX, -this.scaleY);
 };
+
+Graph.prototype.clear = function () {
+    this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    this.drawXAxis();
+    this.drawYAxis();
+}
