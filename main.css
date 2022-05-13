@@ -1,5 +1,8 @@
 body {
     background-color: #1f2227;
+}
+
+#main {
     display: flex;
     justify-content: center;
 }
@@ -21,4 +24,13 @@ canvas {
     border-radius: 5px;
     margin-top: 10px;
     height: 450px;
+}
+
+#functions {
+    background-color: #30353d;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
 }
