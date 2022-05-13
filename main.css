@@ -16,7 +16,8 @@ canvas {
     padding: 20px;
 }
 
-#buttons {
+#calculator #buttons {
     background-color: blue;
     border-radius: 5px;
+    margin-top: 10px;
 }
