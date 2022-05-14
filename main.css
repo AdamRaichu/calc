@@ -71,15 +71,6 @@ canvas {
     width: 75%;
 }
 
-#buttons .top-row {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#buttons .top-row button {
-    border-radius: 10px;
-}
-
 button.b1 {
     background-color: var(--b1-bg, darkblue);
     color: var(--b1-txt, white);
