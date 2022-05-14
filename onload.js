@@ -13,5 +13,5 @@ var colors = AR.$$("div.f input[type=color]")
 for (c = 0; c < fList.length; c++) {
   myGraph.drawEquation(function (x) {
     return eval(fList[c].innerText);
-  }, colors[c], 3);
+  }, colors[c].value, 3);
 }
