@@ -15,7 +15,7 @@ function graphEquations() {
   var colors = AR.$$("div.f input[type=color]")
   for (c = 0; c < fList.length; c++) {
     myGraph.drawEquation(function (x) {
-      return eval(fList[c].innerText.replace(/[a-w y-z A-W Y-Z]/g, "").replace(/X/g, "x").replace(/\u005E/g, "**"));
+      return eval(fList[c].innerText.replace(/Math./g, \u216F).replace(/[a-w y-z A-W Y-Z]/g, "").replace(/X/g, "x").replace(/\u005E/g, "**").replace(/\u216F/, "Math."));
     }, colors[c].value, 3);
     localStorage.setItem(colors[c].dataset.storageKey, colors[c].value)
     localStorage.setItem(fList[c].dataset.storageKey, fList[c].innerText)
