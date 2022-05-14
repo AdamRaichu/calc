@@ -20,4 +20,19 @@ function graphEquations() {
   }
 
 }
+
+function getStored() {
+
+  var colors = AR.$$("div.f input[type=color]")
+
+  for (c = 0; c < colors.length; c++) {
+    if (localStorage.getItem(colors[c].dataset.storageKey) === null) {
+      console.log("No color stored for f #" + (c + 1) + ".")
+    } else {
+      colors[c].value = localStorage.getItem(colors[c].dataset.storageKey)
+    }
+  }
+}
+
+getStored()
 graphEquations()
