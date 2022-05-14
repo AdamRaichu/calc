@@ -7,11 +7,17 @@ var myGraph = new Graph({
   unitsPerTick: 1
 });
 
-var fList = AR.$$("div.f span span[contenteditable=true]")
-var colors = AR.$$("div.f input[type=color]")
+function graphEquations() {
 
-for (c = 0; c < fList.length; c++) {
-  myGraph.drawEquation(function (x) {
-    return eval(fList[c].innerText);
-  }, colors[c].value, 3);
+  myGraph.clear()
+
+  var fList = AR.$$("div.f span span[contenteditable=true]")
+  var colors = AR.$$("div.f input[type=color]")
+  for (c = 0; c < fList.length; c++) {
+    myGraph.drawEquation(function (x) {
+      return eval(fList[c].innerText);
+    }, colors[c].value, 3);
+  }
+
 }
+graphEquations()
