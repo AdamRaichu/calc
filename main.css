@@ -71,6 +71,11 @@ canvas {
     width: 75%;
 }
 
+#functions #save {
+    position: absolute;
+    bottom: 0px;
+}
+
 button.b1 {
     background-color: var(--b1-bg, darkblue);
     color: var(--b1-txt, white);
