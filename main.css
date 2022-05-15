@@ -79,6 +79,11 @@ canvas {
     top: 275px;
 }
 
+#action_menu {
+    background-color: #30353d;
+    color: white;
+}
+
 button.b1 {
     background-color: var(--b1-bg, darkblue);
     color: var(--b1-txt, white);
