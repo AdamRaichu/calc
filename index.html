@@ -24,17 +24,22 @@
             </div>
         </div>
     </div>
-    <div id="functions">
-        <div class="f">
-            <input type="color" value="#ff0000" data-storage-key="f1color"><span>Y= <span contenteditable="true" data-storage-key="f1f">x</span></span>
+    <div id="sidebar_left">
+        <div id="functions">
+            <div class="f">
+                <input type="color" value="#ff0000" data-storage-key="f1color"><span>Y= <span contenteditable="true"
+                        data-storage-key="f1f">x</span></span>
+            </div>
+            <div class="f">
+                <input type="color" value="#ffa500" data-storage-key="f2color"><span>Y= <span contenteditable="true"
+                        data-storage-key="f2f">-x</span></span>
+            </div>
+            <div class="f">
+                <input type="color" value="#ffff00" data-storage-key="f3color"><span>Y= <span contenteditable="true"
+                        data-storage-key="f3f">x^2</span></span>
+            </div>
+            <button id="save" onclick="graphEquations()">Save + Graph</button>
         </div>
-        <div class="f">
-            <input type="color" value="#ffa500" data-storage-key="f2color"><span>Y= <span contenteditable="true" data-storage-key="f2f">-x</span></span>
-        </div>
-        <div class="f">
-            <input type="color" value="#ffff00" data-storage-key="f3color"><span>Y= <span contenteditable="true" data-storage-key="f3f">x^2</span></span>
-        </div>
-        <button id="save" onclick="graphEquations()">Save + Graph</button>
     </div>
     <script src="onload.js"></script>
 </body>

@@ -49,14 +49,17 @@ canvas {
     border: none;
 }
 
+#sidebar_left {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
 #functions {
     background-color: #30353d;
     color: white;
     width: 200px;
     height: 300px;
-    position: absolute;
-    top: 5px;
-    left: 5px;
 }
 
 #functions .f input[type=color] {
