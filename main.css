@@ -82,6 +82,7 @@ canvas {
 #action_menu {
     background-color: #30353d;
     color: white;
+    margin-top: 10px;
 }
 
 button.b1 {
