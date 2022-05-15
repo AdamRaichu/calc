@@ -85,6 +85,18 @@ canvas {
     margin-top: 10px;
 }
 
+.row {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row button {
+    border-radius: 4px;
+    height: 25px;
+    width: 45px;
+}
+
 button.b1 {
     background-color: var(--b1-bg, darkblue);
     color: var(--b1-txt, white);
@@ -100,7 +112,7 @@ button.b3 {
     color: var(--b3-txt, black);
 }
 
-button#2nd {
+button#b-2nd {
     background-color: var(--b-2nd-bg, deepskyblue);
     color: var(--b-2nd-txt, white);
 }
