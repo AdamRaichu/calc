@@ -130,11 +130,3 @@ button:disabled {
     background-color: var(--b-d-bg, transparent);
     color: var(--b-d-txt, transparent);
 }
-
-img#config_init {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
