@@ -4,10 +4,10 @@ for (c = 0; c < secondButtons.length; c++) {
     secondButtons[c].addEventListener("click", function () {
         if (isSecond) {
             AR.$("div#b_main").style.display = "block"
-            AR.$("dib#b_2nd").style.display = "none"
+            AR.$("div#b_2nd").style.display = "none"
         } else {
             AR.$("div#b_main").style.display = "none"
-            AR.$("dib#b_2nd").style.display = "block"
+            AR.$("div#b_2nd").style.display = "block"
         }
     })
 
