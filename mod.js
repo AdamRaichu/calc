@@ -5,6 +5,9 @@ for (c = 0; c < secondButtons.length; c++) {
         if (isSecond) {
             AR.$("div#b_main").style.display = "block"
             AR.$("dib#b_2nd").style.display = "none"
+        } else {
+            AR.$("div#b_main").style.display = "none"
+            AR.$("dib#b_2nd").style.display = "block"
         }
     })
 
@@ -17,6 +20,9 @@ for (c = 0; c < alphaButtons.length; c++) {
         if (isAlpha) {
             AR.$("div#b_main").style.display = "block"
             AR.$("div#b_alpha").style.display = "none"
+        } else {
+            AR.$("div#b_main").style.display = "none"
+            AR.$("div#b_alpha").style.display = "block"
         }
     })
 
