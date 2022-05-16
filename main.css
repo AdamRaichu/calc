@@ -142,3 +142,9 @@ div#b_alpha {
 div#b_2nd {
     display: none;
 }
+
+img.config {
+    width: 20px;
+    height: 20px;
+    content: url(images/settings.png);
+}
