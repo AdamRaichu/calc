@@ -116,12 +116,12 @@ button.b3 {
     color: var(--b3-txt, black);
 }
 
-button#b-2nd {
+button.b-2nd {
     background-color: var(--b-2nd-bg, deepskyblue);
     color: var(--b-2nd-txt, white);
 }
 
-button#alpha {
+button.alpha {
     background-color: var(--b-alpha-bg, lawngreen);
     color: var(--b-alpha-txt, white);
 }
@@ -129,4 +129,16 @@ button#alpha {
 button:disabled {
     background-color: var(--b-d-bg, transparent);
     color: var(--b-d-txt, transparent);
+}
+
+div#b_main {
+    display: block;
+}
+
+div#b_alpha {
+    display: none;
+}
+
+div#b_2nd {
+    display: none;
 }

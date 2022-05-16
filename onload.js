@@ -45,3 +45,5 @@ function getStored() {
 
 getStored()
 graphEquations()
+var isSecond = false
+var isAlpha = false
