@@ -131,6 +131,10 @@ button:disabled {
     color: var(--b-d-txt, transparent);
 }
 
+button:disabled * {
+    display: none;
+}
+
 div#b_main {
     display: block;
 }
