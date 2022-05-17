@@ -121,6 +121,10 @@ button.b-2nd {
     color: var(--b-2nd-txt, white);
 }
 
+#b_2nd button.b-2nd {
+    filter: drop-shadow(2px 4px 6px var(--b1-bg, darkblue));
+}
+
 button.alpha {
     background-color: var(--b-alpha-bg, lawngreen);
     color: var(--b-alpha-txt, white);
