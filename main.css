@@ -130,6 +130,10 @@ button.alpha {
     color: var(--b-alpha-txt, white);
 }
 
+#b_alpha button.alpha {
+    filter: drop-shadow(2px 4px 6px var(--b1-bg, darkblue));
+}
+
 button:disabled {
     background-color: var(--b-d-bg, transparent);
     color: var(--b-d-txt, transparent);
