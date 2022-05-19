@@ -18,7 +18,7 @@ for (c = 0; c < inputs.length; c++) {
 
 }
 
-AR.id("#config_save").addEventListener("click", function () {
+AR.$("#config_save").addEventListener("click", function () {
     for (c = 0; c < inputs.length; c++) {
         localStorage.setItem(inputs[c].dataset.storageKey, inputs[c].value)
     }
