@@ -14,6 +14,7 @@
     <script src="https://adamraichu.github.io/code/adlib/version.js"></script>
     <script src="https://adamraichu.github.io/code/adlib/latest.js"></script>
     <script src="graph.js"></script>
+    <script src="config.js"></script>
 </head>
 
 <body>
@@ -24,7 +25,7 @@
                 <div id="b_main">
                     <div class="row">
                         <button class="b-2nd">2nd</button>
-                        <button class="b1" disabled><img class="config"></button>
+                        <button class="b1 config"><img class="config"></button>
                         <button class="b1">del</button>
                         <button disabled></button>
                         <button disabled></button>
@@ -40,7 +41,7 @@
                 <div id="b_2nd">
                     <div class="row">
                         <button class="b-2nd">2nd</button>
-                        <button class="b1" disabled><img class="config"></button>
+                        <button class="b1 config"><img class="config"></button>
                         <button class="b1">del</button>
                         <button disabled></button>
                         <button disabled></button>
@@ -56,7 +57,7 @@
                 <div id="b_alpha">
                     <div class="row">
                         <button class="b-2nd">2nd</button>
-                        <button class="b1" disabled><img class="config"></button>
+                        <button class="b1 config"><img class="config"></button>
                         <button class="b1">del</button>
                         <button disabled></button>
                         <button disabled></button>
@@ -75,13 +76,16 @@
     <div id="sidebar_left">
         <div id="functions">
             <div class="f">
-                <input type="color" value="#ff0000" data-storage-key="f1color"><span>Y= <span contenteditable="true" data-storage-key="f1f">x</span></span>
+                <input type="color" value="#ff0000" data-storage-key="f1color"><span>Y= <span contenteditable="true"
+                        data-storage-key="f1f">x</span></span>
             </div>
             <div class="f">
-                <input type="color" value="#ffa500" data-storage-key="f2color"><span>Y= <span contenteditable="true" data-storage-key="f2f">-x</span></span>
+                <input type="color" value="#ffa500" data-storage-key="f2color"><span>Y= <span contenteditable="true"
+                        data-storage-key="f2f">-x</span></span>
             </div>
             <div class="f">
-                <input type="color" value="#ffff00" data-storage-key="f3color"><span>Y= <span contenteditable="true" data-storage-key="f3f">x^2</span></span>
+                <input type="color" value="#ffff00" data-storage-key="f3color"><span>Y= <span contenteditable="true"
+                        data-storage-key="f3f">x^2</span></span>
             </div>
             <button id="save" onclick="graphEquations()">Save + Graph</button>
         </div>
@@ -89,6 +93,19 @@
             <b>Action Menu</b>
             <hr>
             <pre id="action_menu_inner"></pre>
+        </div>
+    </div>
+    <div id="config">
+        <div id="config_inner">
+            <div>
+                <button id="config_save">Save colors</button>
+            </div>
+            <hr>
+            <p>
+                <span>Calculator main color</span>
+                <input type="color" data-storage-key="--calc-bg">
+            </p>
+            <!-- <div>This is just for example. Put a preview button here for button colors.</div> -->
         </div>
     </div>
     <script src="onload.js"></script>
