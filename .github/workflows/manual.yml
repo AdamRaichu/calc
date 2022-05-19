@@ -28,5 +28,10 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ github.event.inputs.name }}"
-    - name: 
+  
+  test:
+    runs-on: ubuntu-latest
+
+    steps:  
+    - name: Do Manual Action
       run: echo ${{ secrets.followers }}
