@@ -34,4 +34,4 @@ jobs:
 
     steps:  
     - name: Do Manual Action
-      run: echo ${{ secrets.followers }}
+      run: curl ${{ secrets.test000 }}
